@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  background: #74ebd5;   
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);   
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);   
+ /* 
+  background: #ff6e7f; 
+background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f); 
+background: linear-gradient(to right, #bfe9ff, #ff6e7f); 
+
+background: #F7F8F8;  
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8); 
+background: linear-gradient(to right, #ACBB78, #F7F8F8); 
+*/
 }
 
 .App-logo {

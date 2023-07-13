@@ -1,0 +1,71 @@
+/* App container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Auction item styles */
+  .auction-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .auction-item input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .auction-item button {
+    padding: 8px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auction-item button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Auction list styles */
+  .auction-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .auction-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .auction-list {
+      grid-template-columns: 1fr;
+    }
+  }
+  
