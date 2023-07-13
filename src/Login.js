@@ -1,27 +1,29 @@
-import React from 'react';
-import './Login.css';
+import React from "react";
+import "./Login.css";
 
-const Login = () => {
-  return (
-    
-
-    <div className="signup-container">
-      <div className="image-container">
-       
-        <img src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Signup" />
+class SignIn extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <div className="left-column" style={{ backgroundColor: "#f27157" }}>
+          {/* Sign Up component */}
+          <label>Email Address</label>
+          <input type="email" placeholder="Email Address" className="input" />
+          <label>Password</label>
+          <input type="password" placeholder="Password" className="input" />
+          <button className="sign-in-button">Sign In</button>
+        </div>
+        <div className="right-column">
+          <h1 className="header">Hello friend</h1>
+          <p className="paragraph">
+            Enter your name, email address, and password to start your journey
+            with us.
+          </p>
+          <button className="sign-in-button">Sign Up</button>
+        </div>
       </div>
-      <div className="signup-details">
-     
-        <form>
-          <h2>Login</h2>
-          <input type="text" placeholder="Username" />
-          <input type="password" placeholder="Password" />
-          <button type="submit">Login</button>
-        </form>
-      </div>
-    </div>
+    );
+  }
+}
 
-  );
-};
-
-export default Login;
+export default SignIn;

@@ -1,55 +1,16 @@
-.signup-container {
-    display: flex;
-    height: 100vh;
-  }
-  
-  .image-container {
-    flex: 1;
-    background-color: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .signup-details {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .signup-details form {
-    max-width: 400px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-  }
-  
-  .signup-details h2 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .signup-details input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
-  }
-  
-  .signup-details button {
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .signup-details button:hover {
-    background-color: #45a049;
-  }
-  
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
